@@ -46,6 +46,12 @@ html {
  * 980px / 16px = 61.25em
 */
 
+@media screen and (max-width: 400px) {
+  body {
+     width:670px;
+  }
+}
+
 /* 1200px / 16px = 75em */
 @media (max-width: 75em) {
   html {
@@ -64,6 +70,18 @@ html {
 @media (max-width: 28.75em) {
   html {
     font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+      width: 450px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  body {
+      width: 750px;
   }
 }
 
